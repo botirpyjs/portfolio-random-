@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+input{
+    margin: 15px;
+    font-size: 20px;
+    padding: 8px;
+    caret-color: white;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    transition: all .5s ease-in-out;
+    background-color: aquamarine;
+}
+@media (max-width: 399px){
+    body{
+        background-color: coral;
+    }
+    h1{
+        font-size: larger;
+    }
+    input{
+        margin: 8px;
+        font-size: 17px;
+        padding: 7px;
+        caret-color: none;
+        text-align: center;
+    }
+    button{
+        font-size: 17px;
+        padding: 6px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        background-color: crimson;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover{
+        transition: all .5s ease-in-out;
+        background-color: #4444;
+        border: 2px solid saddlebrown;
+        opacity: 5;
+    }
+    
+}
+@media (min-width: 400px){
+    body{
+        background-color: crimson;
+    }
+    h1{
+        font-size: 20px;
+        color: wheat;
+    }
+    input{
+        margin: 5px;
+        font-size: 17px;
+        padding: 6px;
+        caret-color: none;
+        text-align: center;
+    }
+    button{
+        font-size: 18px;
+        padding: 6px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        background-color: coral;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover{
+        transition: all .5s ease-in-out;
+        background-color: #4444;
+        border: 2px solid saddlebrown;
+        opacity: 5;
+    }
+    
+}
+@media (min-width: 800px) {
+    body{
+        background-color: cadetblue;
+    }
+    h1{
+        color: black;
+    }
+    input{
+        margin: 15px;
+        font-size: 20px;
+        padding: 8px;
+        caret-color: white;
+        text-align: center;
+    }
+    button{
+        font-size: 20px;
+        padding: 8px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+        background-color: bisque;
+        color: black;
+        cursor: pointer;
+    }
+    button:hover{
+        transition: all .5s ease-in-out;
+        background-color: #6666;
+    }
+}
+
+h4{
+    font-size: 120%;
+}
+
+h5{
+    font-size: 150%;
+}
+
+.href{
+    text-decoration: none;
+    color: white;
+    border: 3px solid firebrick;
+    padding: 15px;
+    border-radius: 2rem;
+    background-color: tomato;
+}
+.href:hover{
+    transition: all .5s ease-in-out;
+    background-color: #4444;
+}
